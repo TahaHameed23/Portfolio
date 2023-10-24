@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer utilities {
+    .bg {
+      padding: .3rem;
+      border-radius: 30%;
+    }
+    .bg:hover{
+        opacity: 0.6;
+    }
+  }
+
+
+/* @import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities"; */
