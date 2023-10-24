@@ -2,7 +2,7 @@
 module.exports = {
   darkMode: ['class', '[data-mode="dark"]'],
   content: [
-    "./src/**/*.{html,js}"
+    "./**/*.{html,js}"
   ],
   plugins: [require("daisyui")],
   daisyui: {
